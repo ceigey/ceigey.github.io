@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<!-- ## Following this tutorial
+     ## https://www.html5rocks.com/en/tutorials/webcomponents/imports/
+-->
+<html>
+  <head>
+    <!-- Lato font spreadsheet -->
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  </head>
+</html>
