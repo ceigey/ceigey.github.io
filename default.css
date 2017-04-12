@@ -1,11 +1,21 @@
 body {
+  /* Background should be a dark bluish carbon colour */
   background: #111222; /* Originally #002233 */
+  color: white;
+  /* https://fonts.google.com/specimen/Lato */
+  font-family: 'Lato', sans-serif;
 }
 
 article {
+  /* Background should at this point be lighter than the main body background */
   background: #223366; /* Originally #123366 */
+  color: white;
+  font-family: 'Lato', sans-serif;
 }
 
 header {
+  /* Background should at this point be lighter than the article background */
   background: #112233; /* Originally #112344 */
+  color: white;
+  font-family: 'Lato', sans-serif;
 }
