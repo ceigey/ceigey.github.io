@@ -1,11 +1,11 @@
 body {
-  background: #002233;
+  background: #111222; /* Originally #002233 */
 }
 
 article {
-  background: #123366;
+  background: #223366; /* Originally #123366 */
 }
 
 header {
-  background: #112344;
+  background: #112233; /* Originally #112344 */
 }
