@@ -1,0 +1,23 @@
+{
+  "name": "ceigey-typescript",
+  "version": "1.0.0",
+  "description": "TypeScript files for https://ceigey.github.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ceigey/ceigey.github.io.git"
+  },
+  "author": "Ceigey@GitHub",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ceigey/ceigey.github.io/issues"
+  },
+  "homepage": "https://github.com/ceigey/ceigey.github.io#readme",
+  "dependencies": {
+    "jquery": "^3.2.1"
+  },
+  "devDependencies": {}
+}
