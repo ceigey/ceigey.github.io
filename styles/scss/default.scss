@@ -3,6 +3,10 @@
 
 $mainFont: Roboto; // Previously Lato
 
+// Sizing issues:
+// https://webdesign.tutsplus.com/tutorials/comprehensive-guide-when-to-use-em-vs-rem--cms-23984
+// https://www.w3schools.com/cssref/css_units.asp
+
 // Margins
 // http://meyerweb.com/eric/thoughts/2007/05/01/reset-reloaded/
 // https://www.w3schools.com/css/css_boxmodel.asp
@@ -21,6 +25,7 @@ html, head, body, #sideHeader {
 html {
   width: 100%;
   height: 100%;
+  //https://codemyviews.com/blog/inner-shadows-in-css-images-text-and-beyond
   box-shadow: inset 0px 0px 200px 0px #000000;
 }
 
@@ -52,3 +57,10 @@ article {
   font-family: $mainFont, sans-serif;
   height: 10em;
 }
+
+
+// Read later
+
+//https://css-tricks.com/convert-menu-to-dropdown/
+//https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries
+//http://stackoverflow.com/questions/33229026/bootstrap-dropdown-menu-right-when-screen-too-small
