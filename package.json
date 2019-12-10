@@ -1,25 +1,44 @@
 {
-  "name": "ceigey-typescript",
+  "name": "ceigey.github.io",
   "version": "1.0.0",
-  "description": "TypeScript files for https://ceigey.github.io",
+  "description": "Personal GitHub Portfolio Site",
+  "private": true,
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "sirv public",
+    "dev": "rollup -c -w",
+    "build": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tw": "tailwind build src/tailwind.css -o src/tailwind.readonly.css"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ceigey/ceigey.github.io.git"
   },
-  "author": "Ceigey@GitHub",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ceigey/ceigey.github.io/issues"
   },
   "homepage": "https://github.com/ceigey/ceigey.github.io#readme",
-  "dependencies": {
-    "jquery": "^3.2.1"
-  },
+  "browserslist": [
+    "last 1 chrome versions"
+  ],
   "devDependencies": {
-    "@types/jquery": "^2.0.41"
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-svelte": "^4.0.5",
+    "rollup": "^1.27.9",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-livereload": "^1.0.4",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-svelte": "^5.1.1",
+    "rollup-plugin-terser": "^5.1.2",
+    "sirv-cli": "^0.4.5",
+    "svelte": "^3.16.1"
+  },
+  "dependencies": {
+    "svelte-router-spa": "^5.1.1",
+    "tailwindcss": "^1.1.4"
   }
 }
